@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(assets/concrete_seamless.png);
+}
+
+
+.navbar-inverse .navbar-brand{ 
+	color: #855fa8;
+}
+
+.smallImg {
+	height: 200px;
+	width: 180px;
+	border-radius: 90px;
+	float: left;
+	margin:10px;
+}
+
+.smallPort {
+	width: 100%;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.smallIcon {
+	height: 100px;
+	width: 100px;
+
+}
+
+.panel .panel-default {
+	width: 100%;
+}
+
+.centerContent {
+	padding: 20px 5px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.contact {
+	margin: 20px;
+
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+.panel-heading {
+	text-align: center;
+}
+
