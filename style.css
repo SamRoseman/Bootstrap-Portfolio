@@ -4,8 +4,15 @@
 
 body {
 	background-image: url(assets/concrete_seamless.png);
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
 }
 
+#flex {
+	flex:1;
+	margin:auto;
+}
 
 .navbar-inverse .navbar-brand{ 
 	color: #855fa8;
@@ -17,6 +24,14 @@ body {
 	border-radius: 90px;
 	float: left;
 	margin:10px;
+	transform: rotateY(0deg);
+	transition: 2s;
+
+}
+
+.smallImg:hover {
+	transform:  rotateY(180deg);
+	transition: 2s;
 }
 
 .smallPort {
@@ -26,9 +41,15 @@ body {
 	text-align: center;
 }
 
+
 .smallIcon {
 	height: 100px;
 	width: 100px;
+
+}
+
+.smallIcon:hover {
+	opacity: .5;
 
 }
 
@@ -60,4 +81,16 @@ textarea {
 .panel-heading {
 	text-align: center;
 }
+
+footer {
+	clear: both;
+    height: 75px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    padding-top:  20px;
+    color: #855fa8;
+  
+}
+
 
